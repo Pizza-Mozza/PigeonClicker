@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    color: #333;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.upgrades {
+    margin-top: 30px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+#pigeon {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+#pigeon:active {
+    transform: scale(1.1);
+}
+.passive-upgrades {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.passive-upgrades button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.passive-upgrades button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
